@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+	padding: 0px;
+	margin: 0px;
+	box-sizing:border-box;
+}
+body {
+	background-image: url("images/bg-desktop.svg");
+	background-color: hsl(257, 40%, 49%);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+header, main, footer{
+	width: 90%;
+	margin: auto;
+}
+header{
+	padding: 30px 0px;
+}
+#logo {
+	width: 200px;
+}
+
+main::after {
+	content:"";
+	display: block;
+	clear: left;
+}
+#illustration-img{
+	width: 60%;
+    float: left;
+}
+
+div {
+	width:35%;
+	float: left;
+	color: #ffffff;
+	margin-left: 5%;
+	padding-top: 60px;
+}
+h1 {
+	font-family: "poppins", sas-serif;
+}
+p { 
+font-family: "open-sans", sans-serif;
+margin: 20px 0px;
+}
+#register-link{
+	text-decoration: none;
+	display: inline-block;
+	padding:10px 35px;
+	background-color: #fff;
+	border-radius: 25px;
+	font-family: "poppins", sans-serif;
+	color: hsl(257, 40%, 49%);
+	font-size: 0.9rem;
+}
+#register-link:hover {
+	background-color: hsl(300, 69%, 71%);
+	color: #fff;
+}
+footer {
+	text-align:right;
+	padding:30px 0px;
+}
+span {
+	display: inline-block;
+	border: 1px solid #fff;
+	color: #fff;
+	padding: 8px;
+	border-radius: 50%;
+	margin-left: 10px;
+	cursor: pointer;
+	/* width: 30px; */
+	/* height: 30px;*/
+}
+span:hover{
+	color: hsl(320,89%,71%);
+	border-color: hsl(340,89%, 71%);
+}
+
+span.fa-facebook{
+	padding: 8px 11.5px;
+}
+span.fa-instagram {
+	padding: 8px 11.5px;
+}
